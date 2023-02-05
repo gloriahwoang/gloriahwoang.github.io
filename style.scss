@@ -312,12 +312,12 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: linear-gradient(to right,
+  color: linear-gradient(to right,
     #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 footer {
-  padding: 20px 0;
+  padding: 80px 80px;
   float: left;
 }
 
@@ -330,7 +330,7 @@ footer {
   letter-spacing: -1px;
   
   a {
-    color: white;
+    color: inherit;
     text-decoration: underline;
   }
 }
@@ -341,12 +341,12 @@ footer {
   font-size: 12px;
   font: $noto;
   font-weight: 300;
-  padding: 8px 0 8px 0;
+  padding: 4px 0 0 0;
   letter-spacing: 1px;
   line-height: 16px;
 
   a {
-    color: white;
+    color: inherit;
     text-decoration: underline;
   }
 
