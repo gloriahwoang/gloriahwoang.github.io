@@ -66,10 +66,10 @@ h4 {
 
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: white;
   }
 }
 
@@ -312,7 +312,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  color: linear-gradient(to right,
+  background: linear-gradient(to right,
     #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
