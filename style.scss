@@ -326,14 +326,14 @@ footer {
   color: white;
   font-family: $noto;
   font-weight:900;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: -1px;
 }
 
 .footer-desc{
   margin: 0 0 0 0;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   font: $noto;
   font-weight: 300;
   padding: 8px 0 8px 0;
@@ -345,6 +345,17 @@ footer {
 
 }
 }
+
+.footer-name a{
+  color:white;
+  text-decoration: underline
+}
+
+.footer-desc a{
+  color:white;
+  text-decoration: underline
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
