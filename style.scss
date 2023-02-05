@@ -312,12 +312,37 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: linear-gradient(to right,
+    #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  text-align: left;
+}
+
+.footer-name{
+  margin: 0;
+  color: white;
+  font-family: $noto;
+  font-weight:900;
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+
+.footer-desc{
+  margin: 0 0 0 0;
+  color: white;
+  font-size: 12px;
+  font: $noto;
+  font-weight: 300;
+  padding: 8px 0 8px 0;
+  letter-spacing: 1px;
+  line-height: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
