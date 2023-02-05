@@ -312,8 +312,6 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  color: linear-gradient(to right,
-    #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 footer {
@@ -353,9 +351,18 @@ footer {
   @include mobile {
     margin: 3px 0;
 
-    
-
 }
+}
+
+.container-footer {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+  color: linear-gradient(to right,
+    #cf23cf, #f32170, #ff6b08, #eedd44);
+  background: linear-gradient(to right,
+    #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
