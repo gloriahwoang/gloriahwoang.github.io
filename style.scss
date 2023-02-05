@@ -18,7 +18,6 @@ html {
 }
 
 body {
-	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -312,6 +311,8 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
+  background-color: linear-gradient(to right,
+  #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 footer {
@@ -319,10 +320,6 @@ footer {
   float: left;
 }
 
-.container-footer{
-  background-color: linear-gradient(to right,
-  #cf23cf, #f32170, #ff6b08, #eedd44);
-}
 
 .footer-name{
   margin: 0;
