@@ -19,18 +19,23 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
+          
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <p class="site-description">Hi, I am <span class="bolded">Data Scientist</span> in New York City. 
+              Currently I am at IBM as a <span class="bolded">Data & AI Technical Specialist</span>. Learn more about me or read about my works!</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
         </header>
+      </div>
+      <div class="container">
+        <ul class="navbar">
+          <li><a href="https://github.com/{{ site.footer-links.github }}">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">LinkedIn</a></li>
+          <li><a href=""{{ site.baseurl }}/">Blog</a></li>
+          <li><a href="{{ site.baseurl }}/about">About</a></li>
+        </ul>
+  
       </div>
     </div>
 

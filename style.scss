@@ -64,12 +64,8 @@ h4 {
   color: $gray;
 }
 
-p {
-  margin: 15px 0;
-}
 
 a {
-  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -151,7 +147,8 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 130px;
+  margin-top: 130px ;
 }
 
 .masthead {
@@ -192,18 +189,58 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  background: linear-gradient(to right,
+          #ff6b08, #f32170, #cf23cf);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-family: $noto;
+  font-weight:900;
+  font-size: 42px;
+  letter-spacing: -1px;
 }
 
+.navbar{
+  margin: 0;
+  color: $black;
+  cursor: pointer;
+  font-family: $noto;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+ul {
+  color: $black;
+  list-style-type: none;
+  margin: 0;
+  padding: 12px 0 0 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: $black
+}
+
+
+.bolded { font-weight: 700; }
+
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
+  margin: 0 0 0 0;
+  color: $darkGray;
   font-size: 16px;
+  font: $noto;
+  font-weight: 100;
+  padding: 8px 0 8px 0;
+  letter-spacing: 1px;
+  line-height: 16px;
+
 
   @include mobile {
     margin: 3px 0;

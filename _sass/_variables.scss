@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 //
 // VARIABLES
 //
@@ -14,10 +15,13 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
+
+
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$helvetica: "Noto Sans JP", sans-serif;
+$helveticaNeue: "Noto Sans JP", sans-serif;
+$georgia: "Noto Sans JP", serif;
+$noto: "Noto Sans JP", sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
