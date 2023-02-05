@@ -318,7 +318,7 @@ nav {
 
 footer {
   padding: 20px 0;
-  text-align: left;
+  float: left;
 }
 
 .footer-name{
@@ -328,6 +328,11 @@ footer {
   font-weight:900;
   font-size: 32px;
   letter-spacing: -1px;
+  
+  a {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 .footer-desc{
@@ -340,8 +345,15 @@ footer {
   letter-spacing: 1px;
   line-height: 16px;
 
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
   @include mobile {
     margin: 3px 0;
+
+    
 
 }
 }
