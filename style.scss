@@ -307,6 +307,12 @@ nav {
 }
 
 .post {
+  font-family: $noto;
+  font-weight:900;
+  font-size: 36px;
+  letter-spacing: -1px;
+  font-style: italic;
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
