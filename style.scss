@@ -317,8 +317,9 @@ nav {
 footer {
   padding: 80px 0;
   float: left;
-  width: 100%;
-  background-color: #cf23cf;
+  width: 100vw;
+  background-color: linear-gradient(to right,
+  #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 .footer-name{
