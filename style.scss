@@ -430,7 +430,12 @@ table th {
 table td,
 table th {
   border: 1px solid #dfe2e5;
-  padding: 6px 13px;
+  padding: 6px 13px; 
+  font-family: $noto;
+  font-size: 16px;
+  padding: 8px 0 8px 0;
+  letter-spacing: 1px;
+  line-height: 1.8em;
 }
 
 table tr {
