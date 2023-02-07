@@ -4,7 +4,7 @@ title: About Gloria
 permalink: /about/
 ---
 
-<img align="right" width="800" height="600" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/headshot-website.png">
+<img align="right" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/headshot-website.png">
 
 I'm a Data Scientist in New York City. I grew up in California and spent my years in college and until now here in NYC.
 
