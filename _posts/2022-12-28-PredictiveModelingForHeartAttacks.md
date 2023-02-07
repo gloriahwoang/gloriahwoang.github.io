@@ -3,22 +3,19 @@ layout: post
 title: Predictive Modeling for Heart Attacks
 ---
 
-### Introduction
-
 According to the Center for Disease Control and Prevention, heart disease is a leading cause of death within the United States [1]. Within heart diseases, heart attacks are one of the most common. In the United States, a person has a heart attack every forty seconds [2]. The goal is to take preventative measures to avoid heart attacks. In order to take preventative measures, features that lead to the cause of heart attacks must be identified.
 
 This project intends to explore various models that can sufficiently predict if a person is prone to ha eart attack or not. Categorical and continuous features will be used to identify a binary output of whether someone has a heart attack, where 0 denotes the normal state of no heart attack and 1 denotes the abnormal state of heart attack. The categorical variables in the models are number of major vessels, chest pain, fasting blood sugar, and thallium stress test results. The continuous variables are age, maximum heart rate, resting blood pressure, cholesterol level, and previous peak.
 
 The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouzahir, and Minh Nguyen. It served as a final project for the class Data Science in Mechanical Systems at Columbia University.
 
-### How does the data look?
+## How does the data look?
 
 !["Data-Sample"]({{ site.baseurl }}/images/data-first 5-rows.png)
-<img align="right" src="{{ site.baseurl }}/images/config.png">
 
-##### Data Dictionary
+### Data Dictionary
 
-| Column Name         | Description                                                                                                 |
+| **Column Name**     | **Description**                                                                                             |
 | :------------------ | :---------------------------------------------------------------------------------------------------------- |
 | age                 | age of the patient                                                                                          |
 | sex                 | gender of the patient                                                                                       |
@@ -35,9 +32,26 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 | exercise            | exercised induced angina : 1 = yes, 0 = no                                                                  |
 | output              | target variable (Heart Attack Classification) : 0 = no heart attack, 1 = abnormal state of heart attack     |
 
-##### Exploratory Data Analysis
+### Exploratory Data Analysis
 
-#### References
+Categorical Variables
+!["Data-Sample"]({{ site.baseurl }}/images/sex-distribution.png)
+!["Data-Sample"]({{ site.baseurl }}/images/caa-distribution.png)
+!["Data-Sample"]({{ site.baseurl }}/images/chest-pain-distribution.png)
+!["Data-Sample"]({{ site.baseurl }}/images/fasting-blood-sugar-distribution.png)
+!["Data-Sample"]({{ site.baseurl }}/images/thall.png)
+
+Continuous Variables
+!["Data-Sample"]({{ site.baseurl }}/images/age-distribution.png)
+!["Data-Sample"]({{ site.baseurl }}/images/max-heart-rate.png)
+!["Data-Sample"]({{ site.baseurl }}/images/resting-bp.png)
+!["Data-Sample"]({{ site.baseurl }}/images/cholesterol-distribution.png)
+!["Data-Sample"]({{ site.baseurl }}/images/previous-peak.png)
+
+Target Variable
+!["Data-Sample"]({{ site.baseurl }}/images/heartattack.png)
+
+## References
 
 [1] Centers for Disease Control and Prevention. Underlying Cause of Death, 1999–2018. CDC WONDER Online Database. Atlanta, GA: Centers for Disease Control and Prevention; 2018. Accessed March 12, 2020.
 
