@@ -130,7 +130,8 @@ p {
 .date {
   font-style: italic;
   color: $gray;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 // Specify the color of the selection
@@ -307,11 +308,14 @@ nav {
 }
 
 .post {
+  p {
   font-family: $noto;
-  font-weight:900;
-  font-size: 36px;
-  letter-spacing: -1px;
-  font-style: italic;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 8px 0 8px 0;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  }
 
   blockquote {
     margin: 1.8em .8em;
