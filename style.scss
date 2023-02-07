@@ -117,6 +117,7 @@ p {
   font-weight: 100;
   padding: 8px 0 8px 0;
   letter-spacing: 1px;
+  line-height: 1.8em;
 
 }
 
@@ -249,13 +250,13 @@ li a {
 
 .site-description {
   margin: 0 0 0 0;
-  color: $darkGray;
+  color: $black;
   font-size: 16px;
   font: $noto;
   font-weight: 100;
   padding: 8px 0 8px 0;
   letter-spacing: 1px;
-  line-height: 1.5em;
+  line-height: 1.8em;
 
 
   @include mobile {
@@ -345,6 +346,7 @@ footer {
   font-size: 32px;
   letter-spacing: -1px;
   color: white;
+  font-style: normal;
   
   a {
     color: inherit;

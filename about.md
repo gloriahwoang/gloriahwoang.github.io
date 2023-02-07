@@ -4,6 +4,8 @@ title: About Gloria
 permalink: /about/
 ---
 
+<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/headshot-website.png">
+
 I'm a Data Scientist in New York City. I grew up in California and spent my years in college and until now here in NYC.
 
 Currently I am at IBM as a Data and AI Technical Specialist, working alongside sellers and sales specialists in providing guidance and technical assistance/consultation to clients specifically in the data science and data governance domain.
