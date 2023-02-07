@@ -34,31 +34,29 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 ### Exploratory Data Analysis
 
-Categorical Variables
+**Categorical Variables**
 
-<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/sex-distribution.png" alt="Sex" width="250">
-<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Sex" width="250">
-!["Data-Sample"]({{ site.baseurl }}/images/sex-distribution.png |width=250)
-!["Data-Sample"]({{ site.baseurl }}/images/caa-distribution.png |width=250)
-!["Data-Sample"]({{ site.baseurl }}/images/chest-pain-distribution.png |width=250)
-!["Data-Sample"]({{ site.baseurl }}/images/fasting-blood-sugar-distribution.png |width=250)
-!["Data-Sample"]({{ site.baseurl }}/images/thall.png |width=250)
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/sex-distribution.png" alt="Sex" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Number of Major Vessels" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/chest-pain-distribution.png" alt="Chest Pain" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/fasting-blood-sugar-distribution.png" alt="Fasting Blood Sugar" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/thall.png" alt="Thalium Stress Test Result" width="300">
 
-Continuous Variables
+**Continuous Variables**
 
-!["Data-Sample"]({{ site.baseurl }}/images/age-distribution.png)
-!["Data-Sample"]({{ site.baseurl }}/images/max-heart-rate.png)
-!["Data-Sample"]({{ site.baseurl }}/images/resting-bp.png)
-!["Data-Sample"]({{ site.baseurl }}/images/cholesterol-distribution.png)
-!["Data-Sample"]({{ site.baseurl }}/images/previous-peak.png)
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age-distribution.png" alt="Age" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/max-heart-rate.png" alt="Maximum Heart Rate" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/resting-bp.png" alt="Resting Blood Pressure" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cholesterol-distribution.png" alt="Cholesterol" width="300">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/previous-peak.png" alt="Previous Peak" width="300">
 
-Target Variable
+**Target Variable**
 
-!["Data-Sample"]({{ site.baseurl }}/images/heartattack.png)
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/heartattack.png" alt="Heart Attack">
 
 ### Feature Selection
 
-!["Data-Sample"]({{ site.baseurl }}/images/correlation.png)
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/correlation.png" alt="Correlation">
 
 ## References
 
