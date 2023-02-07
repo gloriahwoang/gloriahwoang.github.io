@@ -337,7 +337,8 @@ footer {
   float: left;
   background-image: linear-gradient(to right,
     #cf23cf, #f32170, #ff6b08, #eedd44);
-  box-sizing: ;
+  box-sizing: content-box;
+  width: 100%;
 }
 
 .footer-name{
