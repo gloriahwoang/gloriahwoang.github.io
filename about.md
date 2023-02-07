@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: About Gloria
 permalink: /about/
 ---
 
-Some information about you!
+I'm a Data Scientist in New York City. I grew up in California and spent my years in college and until now here in NYC.
 
-### More Information
+Currently I am at IBM as a Data and AI Technical Specialist, working alongside sellers and sales specialists in providing guidance and technical assistance/consultation to clients specifically in the data science and data governance domain.
 
-A place to include any other types of information that you'd like to include about yourself.
+I have a Master of Science in Computational and Data Driven Engineering Mechanics from Columbia University. My studies had a focus on Data Science and Machine Learning.
 
-### Contact me
+Before that, I worked several years as an architectural designer after graduating with a Bachelors in Architecture from the City College of New York.
 
-[email@domain.com](mailto:email@domain.com)
+Want to chat? Feel free to [email](mailto:gloria.juhyun@gmail.com)me!
