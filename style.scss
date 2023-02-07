@@ -344,7 +344,7 @@ nav {
 
 footer {
   padding: 80px 0;
-  float: left;
+  float:inline-start;
   background-image: linear-gradient(to right,
     #cf23cf, #f32170, #ff6b08, #eedd44);
   box-sizing: content-box;
@@ -352,8 +352,6 @@ footer {
 }
 
 .footer-name{
-  
-  max-width: 740px;
   font-family: $noto;
   font-weight:900;
   font-size: 32px;
@@ -369,8 +367,6 @@ footer {
 
 
 .footer-desc{
-  
-  max-width: 740px;
   font-size: 12px;
   font: $noto;
   font-weight: 300;
