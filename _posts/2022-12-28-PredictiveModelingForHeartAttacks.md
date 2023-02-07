@@ -15,11 +15,6 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 ### Data Dictionary
 
-| header 1 | header 2                                                    |
-| -------- | ----------------------------------------------------------- |
-| cell 1   | cell 2                                                      |
-| cell 3   | <ul><li> - [ ] Task one </li><li> - [ ] Task two </li></ul> |
-
 | **Column Name**     | **Description**                                                                                             |
 | :------------------ | :---------------------------------------------------------------------------------------------------------- |
 | age                 | age of the patient                                                                                          |
@@ -45,7 +40,7 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 <img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Number of Major Vessels" width="300">
 <img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/chest-pain-distribution.png" alt="Chest Pain" width="300">
 <img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/fasting-blood-sugar-distribution.png" alt="Fasting Blood Sugar" width="300">
-<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/thall.png" alt="Thalium Stress Test Result" width="300">
+<img align="center" class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/thall.png" alt="Thalium Stress Test Result" width="300">
 
 **Continuous Variables**
 
