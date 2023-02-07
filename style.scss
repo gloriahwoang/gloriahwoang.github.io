@@ -111,7 +111,7 @@ img {
 
 p {
   margin: 0 0 0 0;
-  color: $darkGray;
+  color: $black;
   font-size: 16px;
   font: $noto;
   font-weight: 100;
@@ -130,6 +130,7 @@ p {
 .date {
   font-style: italic;
   color: $gray;
+  font-size: 12px;
 }
 
 // Specify the color of the selection
@@ -312,7 +313,7 @@ nav {
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
-    font-style: italic;
+    font-style: normal;
   }
 
   .comments {
@@ -329,14 +330,14 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  margin-bottom: 50px;
-  background-image: linear-gradient(to right,
-    #cf23cf, #f32170, #ff6b08, #eedd44);
 }
 
 footer {
   padding: 80px 0;
   float: left;
+  background-image: linear-gradient(to right,
+    #cf23cf, #f32170, #ff6b08, #eedd44);
+  box-sizing: ;
 }
 
 .footer-name{
