@@ -45,7 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 42px;
+  font-style: italic;
   a {
     color: inherit;
   }
@@ -66,7 +67,7 @@ h4 {
 
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
@@ -148,7 +149,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 130px;
-  margin-top: 130px ;
+  margin-top: 70px ;
 }
 
 .masthead {
