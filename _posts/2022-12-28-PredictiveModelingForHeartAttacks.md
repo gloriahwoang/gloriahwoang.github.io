@@ -15,6 +15,11 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 ### Data Dictionary
 
+| header 1 | header 2                                                    |
+| -------- | ----------------------------------------------------------- |
+| cell 1   | cell 2                                                      |
+| cell 3   | <ul><li> - [ ] Task one </li><li> - [ ] Task two </li></ul> |
+
 | **Column Name**     | **Description**                                                                                             |
 | :------------------ | :---------------------------------------------------------------------------------------------------------- |
 | age                 | age of the patient                                                                                          |
@@ -54,9 +59,13 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 <img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/heartattack.png" alt="Heart Attack">
 
-### Feature Selection
+## Feature Selection: Which features will be used to predict the target variable?
 
 <img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/correlation.png" alt="Correlation">
+
+## Which model predicts with the highest accuracy?
+
+## Can the accuracy of our models be improved?
 
 ## References
 
