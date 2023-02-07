@@ -7,7 +7,7 @@ According to the Center for Disease Control and Prevention, heart disease is a l
 
 This project intends to explore various models that can sufficiently predict if a person is prone to ha eart attack or not. Categorical and continuous features will be used to identify a binary output of whether someone has a heart attack, where 0 denotes the normal state of no heart attack and 1 denotes the abnormal state of heart attack. The categorical variables in the models are number of major vessels, chest pain, fasting blood sugar, and thallium stress test results. The continuous variables are age, maximum heart rate, resting blood pressure, cholesterol level, and previous peak.
 
-The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouzahir, and Minh Nguyen. It served as a final project for the class Data Science in Mechanical Systems at Columbia University.
+The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouzahir, and Minh Nguyen. It served as a final project for the class Data Science in Mechanical Systems at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/Predictive-Modeling-for-Heart-Attacks).
 
 ## How does the data look?
 
@@ -35,13 +35,15 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 ### Exploratory Data Analysis
 
 Categorical Variables
-!["Data-Sample"]({{ site.baseurl }}/images/sex-distribution.png)
-!["Data-Sample"]({{ site.baseurl }}/images/caa-distribution.png)
-!["Data-Sample"]({{ site.baseurl }}/images/chest-pain-distribution.png)
-!["Data-Sample"]({{ site.baseurl }}/images/fasting-blood-sugar-distribution.png)
-!["Data-Sample"]({{ site.baseurl }}/images/thall.png)
+
+!["Data-Sample"]({{ site.baseurl }}/images/sex-distribution.png |width=250)
+!["Data-Sample"]({{ site.baseurl }}/images/caa-distribution.png |width=250)
+!["Data-Sample"]({{ site.baseurl }}/images/chest-pain-distribution.png |width=250)
+!["Data-Sample"]({{ site.baseurl }}/images/fasting-blood-sugar-distribution.png |width=250)
+!["Data-Sample"]({{ site.baseurl }}/images/thall.png |width=250)
 
 Continuous Variables
+
 !["Data-Sample"]({{ site.baseurl }}/images/age-distribution.png)
 !["Data-Sample"]({{ site.baseurl }}/images/max-heart-rate.png)
 !["Data-Sample"]({{ site.baseurl }}/images/resting-bp.png)
@@ -49,14 +51,13 @@ Continuous Variables
 !["Data-Sample"]({{ site.baseurl }}/images/previous-peak.png)
 
 Target Variable
+
 !["Data-Sample"]({{ site.baseurl }}/images/heartattack.png)
+
+### Feature Selection
 
 ## References
 
 [1] Centers for Disease Control and Prevention. Underlying Cause of Death, 1999–2018. CDC WONDER Online Database. Atlanta, GA: Centers for Disease Control and Prevention; 2018. Accessed March 12, 2020.
 
 [2] Fryar CD, Chen T-C, Li X. Prevalence of uncontrolled risk factors for cardiovascular disease: United States, 1999–2010 pdf icon[PDF-494K]. NCHS data brief, no. 103. Hyattsville, MD: National Center for Health Statistics; 2012. Accessed May 9, 2019.
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /\_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
