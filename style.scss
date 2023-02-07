@@ -46,7 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 42px;
+  font-weight: 900;
   font-style: italic;
+  letter-spacing: -1px;
   a {
     color: inherit;
   }
@@ -106,6 +108,18 @@ strong, b {
 img {
   max-width: 100%;
 }
+
+p {
+  margin: 0 0 0 0;
+  color: $darkGray;
+  font-size: 16px;
+  font: $noto;
+  font-weight: 100;
+  padding: 8px 0 8px 0;
+  letter-spacing: 1px;
+
+}
+
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {

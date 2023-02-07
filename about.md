@@ -12,4 +12,4 @@ I have a Master of Science in Computational and Data Driven Engineering Mechanic
 
 Before that, I worked several years as an architectural designer after graduating with a Bachelors in Architecture from the City College of New York.
 
-Want to chat? Feel free to [email](mailto:gloria.juhyun@gmail.com)me!
+Want to chat? Feel free to [email](mailto:gloria.juhyun@gmail.com) me!
