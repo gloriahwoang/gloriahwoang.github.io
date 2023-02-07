@@ -36,6 +36,8 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 Categorical Variables
 
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/sex-distribution.png" alt="Sex" width="250">
+<img align="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Sex" width="250">
 !["Data-Sample"]({{ site.baseurl }}/images/sex-distribution.png |width=250)
 !["Data-Sample"]({{ site.baseurl }}/images/caa-distribution.png |width=250)
 !["Data-Sample"]({{ site.baseurl }}/images/chest-pain-distribution.png |width=250)
@@ -55,6 +57,8 @@ Target Variable
 !["Data-Sample"]({{ site.baseurl }}/images/heartattack.png)
 
 ### Feature Selection
+
+!["Data-Sample"]({{ site.baseurl }}/images/correlation.png)
 
 ## References
 
