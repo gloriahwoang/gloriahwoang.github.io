@@ -213,6 +213,7 @@ p {
   font-weight:900;
   font-size: 42px;
   letter-spacing: -1px;
+  font-style: normal;
 }
 
 .navbar{
@@ -254,7 +255,7 @@ li a {
   font-weight: 100;
   padding: 8px 0 8px 0;
   letter-spacing: 1px;
-  line-height: 16px;
+  line-height: 1.5em;
 
 
   @include mobile {
