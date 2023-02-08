@@ -12,7 +12,7 @@ The project was a collaborative effort with Aaron Zhao. It served as a final pro
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
 
 <div class="img-container">
-    <img src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/architecture.png" width="450">
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcndPKEkiuBd03N5jXP7c7Q%2FArchitecture%3Fnode-id%3D0%253A1%26t%3DQ3OMbTfIGM0KXoe0-1" allowfullscreen></iframe>
 </div>
 
 ly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
