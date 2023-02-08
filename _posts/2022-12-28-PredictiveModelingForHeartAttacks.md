@@ -34,6 +34,8 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 ### Exploratory Data Analysis
 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in
+
 #### Categorical Variables
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -72,25 +74,25 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 
 ### Logistic Regression
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-score.jpg" width="220">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression.png" width="220">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-roc.jpg" width="220">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-score.jpg" width="220" style="border: #ddd 1px solid;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression.png" width="220" style="border: #ddd 1px solid;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-roc.jpg" width="220" style="border: #ddd 1px solid;">
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
 
 ### Support Vector Machine
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-score.jpg" width="220">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm.png" width="220">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-roc.jpg" width="220">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-score.jpg" width="220" style="border: #ddd 1px solid;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm.png" width="220" style="border: #ddd 1px solid;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-roc.jpg" width="220" style="border: #ddd 1px solid;">
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
 
 ### Random Forest
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-score.jpg" width="220">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest.png" width="220">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-roc.jpg" width="220">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-score.jpg" width="220" style="border: #ddd 1px solid;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest.png" width="220" style="border: #ddd 1px solid;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-roc.jpg" width="220" style="border: #ddd 1px solid;">
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
 
