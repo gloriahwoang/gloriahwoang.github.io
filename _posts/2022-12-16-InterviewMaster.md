@@ -35,7 +35,7 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/wireframe.jpg">
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTzpT8GwAd0PpCSnx7AQKTo%2FWireframe-%2526-Prototype%3Ft%3DGUnql9cKS2RozNfi-1" allowfullscreen></iframe>
 </div>
 
 ## Screenshots
@@ -43,32 +43,32 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 #### Home Page
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-2.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-3.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-4.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-5.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-2.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-3.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-4.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-5.png" width="300">
 </div>
 
 #### Login Page
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
 </div>
 
 #### Sign Up Page
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
 </div>
 
 #### Interviews Page
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-1.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-2.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-3.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-1.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-2.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-3.png" width="300">
 </div>
 
 ## Key Designs and Features
@@ -76,10 +76,10 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cognito.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dynamodb.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cognito.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dynamodb.png" width="300">
 </div>
 
 ## Further Implementation and Improvements
