@@ -83,9 +83,9 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 ### Logistic Regression
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-score.jpg" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression.png" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-roc.jpg" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-score.jpg" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression.png" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-roc.jpg" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
 </div>
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
@@ -93,9 +93,9 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 ### Support Vector Machine
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-score.jpg" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm.png" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-roc.jpg" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-score.jpg" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm.png" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-roc.jpg" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
 </div>
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
@@ -103,9 +103,9 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 ### Random Forest
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-score.jpg" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest.png" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-roc.jpg" width="220" style="border: #ddd 1px solid; margin-right: 20px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-score.jpg" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest.png" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-roc.jpg" width="210" style="border: #ddd 1px solid; margin-right: 15px;">
 </div>
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
