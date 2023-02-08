@@ -48,6 +48,8 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 
 #### Home Page
 
+but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage.png" width="300">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-2.png" width="300">
@@ -58,11 +60,15 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 
 #### Login Page
 
+but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
 </div>
 
 #### Sign Up Page
+
+but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
 
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
@@ -71,8 +77,15 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 
 #### Interviews Page
 
+but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-1.png" width="300">
+</div>
+
+but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+
+<div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-2.png" width="300">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-3.png" width="300">
 </div>
