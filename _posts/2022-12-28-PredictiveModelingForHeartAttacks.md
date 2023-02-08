@@ -34,7 +34,7 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 ### Exploratory Data Analysis
 
-**Categorical Variables**
+#### Categorical Variables
 
 <img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/sex-distribution.png" alt="Sex" width="300">
 <img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Number of Major Vessels" width="300">
@@ -42,7 +42,7 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 <img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/fasting-blood-sugar-distribution.png" alt="Fasting Blood Sugar" width="300">
 <img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/thall.png" alt="Thalium Stress Test Result" width="300">
 
-**Continuous Variables**
+#### Continuous Variables
 
 <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age-distribution.png" alt="Age" width="300">
 <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/max-heart-rate.png" alt="Maximum Heart Rate" width="300">
@@ -50,13 +50,13 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cholesterol-distribution.png" alt="Cholesterol" width="300">
 <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/previous-peak.png" alt="Previous Peak" width="300">
 
-**Target Variable**
+#### Target Variable
 
 <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/heartattack.png" alt="Heart Attack" width="300">
 
 ## Which features will be used to predict the target variable?
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/correlation.png" alt="Correlation" width="600">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/correlation.png" alt="Correlation" width="500">
 
 ## Which model predicts with the highest accuracy?
 
