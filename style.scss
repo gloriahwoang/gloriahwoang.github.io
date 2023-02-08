@@ -236,6 +236,7 @@ ul {
   overflow: hidden;
 }
 
+
 li {
   float: right;
 }
@@ -409,7 +410,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 
@@ -464,6 +465,20 @@ table tr:nth-child(2n) {
 table > thead > tr > th {
   border-bottom: 0;
 }
+
+.IM-list{
+  list-style-type:circle;
+  font-family: $noto;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 8px 0 8px 0;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+
+
+
 /* End of table styles */
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

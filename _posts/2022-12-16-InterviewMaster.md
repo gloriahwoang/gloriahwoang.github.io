@@ -17,7 +17,7 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 
 ly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
 
-<ul>
+<ul class="IM-list">
   <li>Cognito</li>
   <li>S3 Bucket</li>
   <li>API Gateway</li>
@@ -28,7 +28,7 @@ ly five centuries, but also the leap into electronic typesetting, remaining esse
 
 t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently wrinter took a galley of type and scrambled it to make a type specimen book. It has survived not only
 
-<ul>
+<ul class="IM-list">
   <li>Code Build</li>
   <li>Code Pipeline</li>
   <li>CloudWatch</li>
