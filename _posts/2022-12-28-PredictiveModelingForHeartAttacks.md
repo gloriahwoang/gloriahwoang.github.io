@@ -44,11 +44,11 @@ The project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouz
 
 **Continuous Variables**
 
-<img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age-distribution.png" alt="Age" width="300">
-<img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/max-heart-rate.png" alt="Maximum Heart Rate" width="300">
-<img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/resting-bp.png" alt="Resting Blood Pressure" width="300">
-<img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cholesterol-distribution.png" alt="Cholesterol" width="300">
-<img align="left" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/previous-peak.png" alt="Previous Peak" width="300">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age-distribution.png" alt="Age" width="300">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/max-heart-rate.png" alt="Maximum Heart Rate" width="300">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/resting-bp.png" alt="Resting Blood Pressure" width="300">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cholesterol-distribution.png" alt="Cholesterol" width="300">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/previous-peak.png" alt="Previous Peak" width="300">
 
 **Target Variable**
 
