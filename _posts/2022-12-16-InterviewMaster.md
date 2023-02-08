@@ -5,7 +5,7 @@ title: InterviewMaster - App for Organizing Your Job Interviews
 
 The job searching process can become tedious. Many candidates choose to have an excel sheet that summarizes all of their applications, but many also choose not to have any tracking system at all. Therefore, some candidates may even forget that he or she applied to the same company six months ago or even forget to check the status of their application from the specific company’s portal. The worst is when the candidate is in the process of many interviews and forget to send thank you notes, or follow up emails to the ones involved in their application processes. It takes a lot of organization and consistency during this job searching process. InterviewMaster is the application that helps with this organization. Once signed up, InterviewMaster will start to keep track of all your incoming emails and watch out for application statuses in your email. You are also able to manually insert interview information that may have existed before you signed up or insert interviews that the system’s NLP failed to catch.
 
-The project was a collaborative effort with Aaron Zhao. It served as a final project for the class Cloud Computing and Big Data with AWS at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/InterviewMaster). See also a **demo** of the project [here](https://youtu.be/PcSSIGiSaiw).
+The project was a collaborative effort with Aaron Zhao. It served as a final project for the class Cloud Computing and Big Data with AWS at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/InterviewMaster). See also a **Youtube demo** of the project [here](https://youtu.be/PcSSIGiSaiw).
 
 ## The Architecture
 
@@ -17,16 +17,22 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 
 ly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
 
-- Cognito
-- S3 Bucket
-- API Gateway
-- Lambdas
-- Dynamo DB
-- SES
+<ul>
+  <li>Cognito</li>
+  <li>S3 Bucket</li>
+  <li>API Gateway</li>
+  <li>Lambdas</li>
+  <li>Dynamo DB</li>
+  <li>SES</li>
+</ul>
 
-- Code Build
-- Code Pipeline
-- CloudWatch
+t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently wrinter took a galley of type and scrambled it to make a type specimen book. It has survived not only
+
+<ul>
+  <li>Code Build</li>
+  <li>Code Pipeline</li>
+  <li>CloudWatch</li>
+</ul>
 
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently wrinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
 
@@ -38,7 +44,7 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTzpT8GwAd0PpCSnx7AQKTo%2FWireframe-%2526-Prototype%3Ft%3DGUnql9cKS2RozNfi-1" allowfullscreen></iframe>
 </div>
 
-## Screenshots
+## App Overview
 
 #### Home Page
 
