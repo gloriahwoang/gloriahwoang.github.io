@@ -18,12 +18,12 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 ly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
 
 <ul class="IM-list">
-  <li class="IM-li">Cognito</li>
-  <li class="IM-li">S3 Bucket</li>
-  <li class="IM-li">API Gateway</li>
-  <li class="IM-li">Lambdas</li>
-  <li class="IM-li">Dynamo DB</li>
-  <li class="IM-li">SES</li>
+  <li>Cognito</li>
+  <li>S3 Bucket</li>
+  <li>API Gateway</li>
+  <li>Lambdas</li>
+  <li>Dynamo DB</li>
+  <li>SES</li>
 </ul>
 
 t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently wrinter took a galley of type and scrambled it to make a type specimen book. It has survived not only
@@ -94,23 +94,11 @@ but also the leap into electronic typesetting, remaining essentially unchanged. 
 
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.jpg" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cognito.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dynamodb.png" width="300">
-</div>
-
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
 <div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
-</div>
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
-
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.jpg" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.jpg" width="300">
 </div>
 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
