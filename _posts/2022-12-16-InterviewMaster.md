@@ -11,7 +11,9 @@ The project was a collaborative effort with Aaron Zhao. It served as a final pro
 
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
 
-<img align="middle" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/architecture.png" width="300">
+<div class="img-container">
+    <img align="middle" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/architecture.png" width="600">
+</div>
 
 - Cognito
 - S3 Bucket
@@ -30,7 +32,9 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
 
-<img align="middle" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/wireframe.jpg">
+<div class="img-container">
+    <img align="middle" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/wireframe.jpg">
+</div>
 
 ## Screenshots
 
