@@ -40,21 +40,23 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/sex-distribution.png" alt="Sex" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Number of Major Vessels" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/chest-pain-distribution.png" alt="Chest Pain" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/fasting-blood-sugar-distribution.png" alt="Fasting Blood Sugar" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/thall.png" alt="Thalium Stress Test Result" width="300">
+<div class="img-container">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/sex-distribution.png" alt="Sex" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/caa-distribution.png" alt="Number of Major Vessels" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/chest-pain-distribution.png" alt="Chest Pain" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/fasting-blood-sugar-distribution.png" alt="Fasting Blood Sugar" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/thall.png" alt="Thalium Stress Test Result" width="300">
+</div>
 
 #### Continuous Variables
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age-distribution.png" alt="Age" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/max-heart-rate.png" alt="Maximum Heart Rate" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/resting-bp.png" alt="Resting Blood Pressure" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cholesterol-distribution.png" alt="Cholesterol" width="300">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/previous-peak.png" alt="Previous Peak" width="300">
+<img align="middle" class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age-distribution.png" alt="Age" width="300">
+<img align="middle" class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/max-heart-rate.png" alt="Maximum Heart Rate" width="300">
+<img align="middle" class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/resting-bp.png" alt="Resting Blood Pressure" width="300">
+<img align="middle" class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cholesterol-distribution.png" alt="Cholesterol" width="300">
+<img align="middle" class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/previous-peak.png" alt="Previous Peak" width="300">
 
 #### Target Variable
 
@@ -74,25 +76,25 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 
 ### Logistic Regression
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-score.jpg" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression.png" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-roc.jpg" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-score.jpg" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression.png" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/logistic-regression-roc.jpg" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
 
 ### Support Vector Machine
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-score.jpg" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm.png" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-roc.jpg" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-score.jpg" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm.png" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/svm-roc.jpg" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
 
 ### Random Forest
 
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-score.jpg" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest.png" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
-<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-roc.jpg" width="220" style="border: #ddd 1px solid; padding-right: 10px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-score.jpg" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest.png" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
+<img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/randomforest-roc.jpg" width="220" style="border: #ddd 1px solid; padding-right: 60px;">
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
 

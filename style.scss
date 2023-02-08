@@ -395,13 +395,15 @@ footer {
 .center {
   display: inline-block;
   margin-left: auto;
-  margin-right: auto; 
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
+  margin-right: auto;
+  
 }
 
-
+.img-container{
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
 
 
 /* Table styles ripped from Github */
