@@ -37,21 +37,15 @@ The following sections will describe these components in detail.
 Cognito was used to add user sign-up and sign-in features and user control access to InterviewMaster. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application statuses.
 
 <div class="img-container">
-    <p>Login Page</p>
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300"><br>
-    <p>Signup Page</p>
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
+    <figcaption>Login Page</figcaption><br>
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
-</div>
-
-<div class="img-container">
-    <p>Cognito Verification</p>
+    <figcaption>Signup Page</figcaption><br>
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
-</div>
-
-<div class="img-container">
-    <p>SES Verification</p>
+    <figcaption>Cognito Verification</figcaption><br>
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.jpg" width="300">
+    <figcaption>SES Verification</figcaption>
 </div>
 
 #### S3
