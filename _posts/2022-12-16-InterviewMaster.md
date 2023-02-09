@@ -22,19 +22,9 @@ SES<br style="line-height:12px">
 
 And there are several supporting components to the architecture:
 
-<ul style= "float=left">
-    <li style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Build</li>
-    <li style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Pipeline</li>
-    <li style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Cloudwatch</li>
-</ul>
-
-<li style="float=left; display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Build</li>
-<li style="float=left; display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Pipeline</li>
-<li style="float=left; display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Cloudwatch</li>
-
-<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Build</p>
-<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Pipeline</p>
-<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Cloudwatch</p>
+_Tabspace_<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Build</p>
+_Tabspace_<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Pipeline</p>
+_Tabspace_<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Cloudwatch</p>
 
 The following sections will describe these components in detail.
 
