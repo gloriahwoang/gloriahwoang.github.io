@@ -5,7 +5,7 @@ title: Predictive Modeling for Heart Attacks
 
 According to the Center for Disease Control and Prevention, heart disease is a leading cause of death within the United States [1]. Within heart diseases, heart attacks are one of the most common. In the United States, a person has a heart attack every forty seconds [2]. What are the preventive measures to avoid heart attacks? In order to address this question, we must identify features that lead to the cause of herat attacks.
 
-This project intends to explore various models that can predict if a person is prone to a heart attack or not. This project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouzahir, and Minh Nguyen. It served as a final project for the class "Data Science in Mechanical Systems" at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/Predictive-Modeling-for-Heart-Attacks).
+This project intends to explore various models that can predict if a person is prone to a heart attack or not. This project was a collaborative effort with Andrea Lin, Joan Akibode, Sanaa Mouzahir, and Minh Nguyen. It served as a final project for the class _Data Science in Mechanical Systems_ at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/Predictive-Modeling-for-Heart-Attacks).
 
 ## How does the data look?
 
