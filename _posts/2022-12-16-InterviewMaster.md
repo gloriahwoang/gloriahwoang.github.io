@@ -38,13 +38,10 @@ Cognito was used to add user sign-up and sign-in features and user control acces
 
 <div class="img-container">
     <p>Login Page</p>
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
-</div>
-
-<div class="img-container">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300"><br>
     <p>Signup Page</p>
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
 </div>
 
 <div class="img-container">
