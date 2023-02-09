@@ -13,18 +13,17 @@ This project was a collaborative effort with Aaron Zhao. It served as a final pr
 
 The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
 
-<ul>
-    <li class="post-li">Cognito</li>
-    <li class="post-li">S3</li>
-    <li class="post-li">API Gateway</li>
-    <li class="post-li">Lambdas</li>
-</ul>
-- Cognito
-- S3
-- API Gateway
-- Lambdas
-- DynamoDB
-- SES
+Cognito
+
+S3
+
+API Gateway
+
+Lambdas
+
+DynamoDB
+
+SES
 
 And there are several supporting components to the architecture:
 
@@ -43,8 +42,8 @@ The following sections will describe these components in detail.
 Cognito was used to add user sign-up and sign-in features and user control access to InterviewMaster. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application statuses.
 
 <div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login-signup.png" width="550">
-    <figcaption>Login and Signup Page</figcaption>
+    <br><img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login-signup.png" width="550">
+    <figcaption>Login and Signup Page</figcaption><br>
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification.png" width="550">
     <figcaption>Cognito and SES Verification</figcaption>
 </div>
