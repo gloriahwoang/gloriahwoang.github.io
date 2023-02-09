@@ -34,7 +34,30 @@ The following sections will describe these components in detail.
 
 #### Cognito
 
-Cognito was used to add user sign-up and sign-in features and control access to InterviewMaster. With Cognito, sign-up verifications are sent to the user and once verified, the user can sign-in and start using the app. A username, an email address, and a password are needed to sign-up. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application status.
+Cognito was used to add user sign-up and sign-in features and user control access to InterviewMaster. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application statuses.
+
+<div class="img-container">
+    <p>Login Page</p>
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
+</div>
+
+<div class="img-container">
+    <p>Signup Page</p>
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
+</div>
+
+<div class="img-container">
+    <p>Cognito Verification</p>
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
+</div>
+
+<div class="img-container">
+    <p>SES Verification</p>
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.jpg" width="300">
+</div>
+
+#### S3
 
 ## Wireframing
 
@@ -58,23 +81,6 @@ but also the leap into electronic typesetting, remaining essentially unchanged. 
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-5.png" width="300">
 </div>
 
-#### Login Page
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
-</div>
-
-#### Sign Up Page
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
-</div>
-
 #### Interviews Page
 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
@@ -95,16 +101,6 @@ but also the leap into electronic typesetting, remaining essentially unchanged. 
 rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
-
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
-</div>
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
-
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-2.jpg" width="300">
-</div>
 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
