@@ -38,7 +38,7 @@ Cognito was used to add user sign-up and sign-in features and user control acces
 
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login-signup.png" width="550">
-    <figcaption>Login and Signup Page</figcaption><br>
+    <figcaption>Login and Signup Page</figcaption>
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification.png" width="550">
     <figcaption>Cognito and SES Verification</figcaption>
 </div>
@@ -55,9 +55,10 @@ The website is hosted on B1. The application was made with React JS and Node JS.
 #### API Gateway
 
 API Gateway consists of several methods:
-/login GET
-/setup PUT
-/update PUT
+
+- /login GET
+- /setup PUT
+- /update PUT
 
 The /setup PUT method connects LF1 with the front-end after the user signs up to PUT the user’s email address to SES and send the SES verification email back to the user.
 
@@ -126,5 +127,7 @@ As new interview emails come in, InterviewMaster automatically updates the dashb
 
 ## Further Implementation and Improvements
 
-There are several
-In this project, a lot of aws features were used to make the application functionalities on cloud for signup verification, email and interview information storage, website hosting, API generation and code deployment. In the future, we will focus on improving the email scraping to get more emails scanned instead of scanning incoming email only and try to use SageMaker to implement the scanning process with a retraining service to have higher accuracy of the interview information. Additionally, we encountered challenges such as uploading a lambda function with exceeding dependency packages.
+It was a challenge to learn all the AWS modules involved in this project. There are yet a lot of improvements that can be made for further implementation. Some of these include:
+
+- Improve the ML model in scraping company name, position title, etc. to be more accurate.
+- Allow the app to import interview information from existant gmail data instead of only incoming data.
