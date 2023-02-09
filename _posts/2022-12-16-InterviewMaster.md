@@ -3,40 +3,38 @@ layout: post
 title: InterviewMaster - App for Organizing Your Job Interviews
 ---
 
-InterviewMaster allows candidates to automatically monitor any changes in their candidacy. You can simply open the app and give it access to your Gmail account. It will automatically gather all the job application/status/process information! It is fast, simple, and convenient. A decent form will be created, and you can also manually modify the form by writing down some comments and even copying and pasting your referrers' name/LinkedIn link.
+The job searching process can become tedious. Many candidates choose to have an excel sheet that summarizes all of their applications, but some may also choose not to have any tracking system at all. With that, some some may forget that he applied to the same company a month ago!
 
-The job searching process can become tedious. Many candidates choose to have an excel sheet that summarizes all of their applications, but many also choose not to have any tracking system at all. Therefore, some candidates may even forget that he or she applied to the same company six months ago or even forget to check the status of their application from the specific company’s portal. The worst is when the candidate is in the process of many interviews and forget to send thank you notes, or follow up emails to the ones involved in their application processes. It takes a lot of organization and consistency during this job searching process. InterviewMaster is the application that helps with this organization. Once signed up, InterviewMaster will start to keep track of all your incoming emails and watch out for application statuses in your email. You are also able to manually insert interview information that may have existed before you signed up or insert interviews that the system’s NLP failed to catch.
+InterviewMaster allows candidates to automatically monitor changes in their candidacy. You can simply give the app permission/access to your Gmail account and it will automatically gather all the job application/status/process information for you! It is fast, simple, and convenient.
 
-The project was a collaborative effort with Aaron Zhao. It served as a final project for the class Cloud Computing and Big Data with AWS at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/InterviewMaster). See also a **Youtube demo** of the project [here](https://youtu.be/PcSSIGiSaiw).
+This project was a collaborative effort with Aaron Zhao. It served as a final project for the class "Cloud Computing and Big Data with AWS" at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/InterviewMaster). See also a **Youtube demo** of the project [here](https://youtu.be/PcSSIGiSaiw).
 
 ## The Architecture
 
-rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
+The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
+
+- Cognito
+- S3
+- API Gateway
+- Lambdas
+- Dynamo DB
+- SES
+
+And there are several supporting components to the architecture:
+
+- Code Build
+- Code Pipeline
+- Cloudwatch
+
+The following sections will describe these components in detail.
 
 <div class="img-container">
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcndPKEkiuBd03N5jXP7c7Q%2FArchitecture%3Fnode-id%3D0%253A1%26t%3DQ3OMbTfIGM0KXoe0-1" allowfullscreen></iframe>
 </div>
 
-ly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+#### Cognito
 
-<ul class="IM-list">
-  <li>Cognito</li>
-  <li>S3 Bucket</li>
-  <li>API Gateway</li>
-  <li>Lambdas</li>
-  <li>Dynamo DB</li>
-  <li>SES</li>
-</ul>
-
-t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently wrinter took a galley of type and scrambled it to make a type specimen book. It has survived not only
-
-<ul class="IM-list">
-  <li>Code Build</li>
-  <li>Code Pipeline</li>
-  <li>CloudWatch</li>
-</ul>
-
-rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently wrinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
+Cognito was used to add user sign-up and sign-in features and control access to InterviewMaster. With Cognito, sign-up verifications are sent to the user and once verified, the user can sign-in and start using the app. A username, an email address, and a password are needed to sign-up. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application status.
 
 ## Wireframing
 
