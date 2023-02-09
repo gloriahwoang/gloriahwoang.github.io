@@ -26,7 +26,7 @@ Code Build<br>
 Code Pipeline<br>
 Cloudwatch<br>
 
-The following sections will describe these components in detail.
+The following sections will describe these components in detail.<br>
 <br>
 
 <div class="img-container">
@@ -102,7 +102,7 @@ CloudWatch is a must have for any application development with AWS. With CloudWa
 
 ## Wireframing
 
-Below is the wireframing of the project from the very beginning of our development planning.
+Below is the wireframing of the project from the very beginning of our development planning.<br>
 <br>
 
 <div class="img-container">
