@@ -13,18 +13,18 @@ This project was a collaborative effort with Aaron Zhao. It served as a final pr
 
 The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
 
-Cognito<br style="line-height:12px">
-S3<br style="line-height:12px">
-API Gateway<br style="line-height:12px">
-Lambdas<br style="line-height:12px">
-DynamoDB<br style="line-height:12px">
-SES<br style="line-height:12px">
+Cognito<br>
+S3<br>
+API Gateway<br>
+Lambdas<br>
+DynamoDB<br>
+SES<br>
 
 And there are several supporting components to the architecture:
 
-_Tabspace_<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Build</p>
-_Tabspace_<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Pipeline</p>
-_Tabspace_<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Cloudwatch</p>
+<pre>   </pre><p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Build</p>
+<pre>   </pre><p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Code Pipeline</p>
+<pre>   </pre><p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">Cloudwatch</p>
 
 The following sections will describe these components in detail.
 
