@@ -29,7 +29,7 @@ And there are several supporting components to the architecture:
 The following sections will describe these components in detail.
 
 <div class="img-container">
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcndPKEkiuBd03N5jXP7c7Q%2FArchitecture%3Fnode-id%3D0%253A1%26t%3DQ3OMbTfIGM0KXoe0-1" allowfullscreen></iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcndPKEkiuBd03N5jXP7c7Q%2FArchitecture%3Fnode-id%3D0%253A1%26t%3DQ3OMbTfIGM0KXoe0-1" allowfullscreen></iframe>
 </div>
 
 #### Cognito
@@ -108,7 +108,7 @@ CloudWatch is a must have for any application development with AWS. With CloudWa
 Below is the wireframing of the project at the very beginning of our development planning.
 
 <div class="img-container">
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTzpT8GwAd0PpCSnx7AQKTo%2FWireframe-%2526-Prototype%3Ft%3DGUnql9cKS2RozNfi-1" allowfullscreen></iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTzpT8GwAd0PpCSnx7AQKTo%2FWireframe-%2526-Prototype%3Ft%3DGUnql9cKS2RozNfi-1" allowfullscreen></iframe>
 </div>
 
 ## Key Designs and Features
