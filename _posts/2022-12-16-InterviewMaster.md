@@ -100,7 +100,7 @@ CloudWatch is a must have for any application development with AWS. With CloudWa
 
 ## Wireframing
 
-Below is the wireframing of the project at the very beginning of our development planning.
+Below is the wireframing of the project from the very beginning of our development planning.
 
 <div class="img-container">
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="740" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTzpT8GwAd0PpCSnx7AQKTo%2FWireframe-%2526-Prototype%3Ft%3DGUnql9cKS2RozNfi-1" allowfullscreen></iframe>
@@ -108,21 +108,23 @@ Below is the wireframing of the project at the very beginning of our development
 
 ## Key Designs and Features
 
-rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+#### My Interviews Page
+
+Once the user logs in for the first time, there will not be any data existing as the application can only track incoming email data from the time the user signed up.
+
+As new interview emails come in, InterviewMaster automatically updates the dashboard for the user. The user is able to edit the interview information in case lambda was not successfully able to scrape the information with 100% accuracy. The user is also able to add new interview information manually if there is an interview information that is not existent in their emails.
 
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interviewfeature.png" width="550">
+    <figcaption>Left: When user logs in for the first time; Right: Sample current user</figcaption><br>
 </div>
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
 <div class="img-container">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cognito-dynamodb.png" width="550">
+    <figcaption>Left: Manage users with Cognito; Right: DynamoDB Table</figcaption>
 </div>
 
 ## Further Implementation and Improvements
 
-rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
+There are several
+In this project, a lot of aws features were used to make the application functionalities on cloud for signup verification, email and interview information storage, website hosting, API generation and code deployment. In the future, we will focus on improving the email scraping to get more emails scanned instead of scanning incoming email only and try to use SageMaker to implement the scanning process with a retraining service to have higher accuracy of the interview information. Additionally, we encountered challenges such as uploading a lambda function with exceeding dependency packages.
