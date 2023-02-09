@@ -37,9 +37,9 @@ The following sections will describe these components in detail.
 Cognito was used to add user sign-up and sign-in features and user control access to InterviewMaster. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application statuses.
 
 <div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login-signup.png">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login-signup.png" width="550">
     <figcaption>Login and Signup Page</figcaption><br>
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification.png">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification.png" width="550">
     <figcaption>Cognito and SES Verification</figcaption>
 </div>
 
@@ -112,7 +112,7 @@ rinter took a galley of type and scrambled it to make a type specimen book. It h
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
 
 <div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interviewfeature.png">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interviewfeature.png" width="550">
 </div>
 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
@@ -120,7 +120,7 @@ but also the leap into electronic typesetting, remaining essentially unchanged. 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
 <div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cognito-dynamodb.png">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/cognito-dynamodb.png" width="550">
 </div>
 
 ## Further Implementation and Improvements
