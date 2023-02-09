@@ -13,18 +13,18 @@ This project was a collaborative effort with Aaron Zhao. It served as a final pr
 
 The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
 
-Cognito
-S3
-API Gateway
-Lambdas
-DynamoDB
-SES
+Cognito<br>
+S3<br>
+API Gateway<br>
+Lambdas<br>
+DynamoDB<br>
+SES<br>
 
 And there are several supporting components to the architecture:
 
-- Code Build
-- Code Pipeline
-- Cloudwatch
+Code Build
+Code Pipeline
+Cloudwatch
 
 The following sections will describe these components in detail.
 
@@ -47,8 +47,8 @@ Cognito was used to add user sign-up and sign-in features and user control acces
 
 Two S3 buckets are supporting this project:
 
-- B1 - 6998finalproject-frontend
-- B2 - 6998finalproject-emails
+B1 - 6998finalproject-frontend
+B2 - 6998finalproject-emails
 
 The website is hosted on B1. The application was made with React JS and Node JS. B1 holds all the front-end code. B2, on the other hand, holds the incoming emails of the users signed up with InterviewMaster.
 
@@ -56,9 +56,9 @@ The website is hosted on B1. The application was made with React JS and Node JS.
 
 API Gateway consists of several methods:
 
-- /login GET
-- /setup PUT
-- /update PUT
+/login GET
+/setup PUT
+/update PUT
 
 The /setup PUT method connects LF1 with the front-end after the user signs up to PUT the user’s email address to SES and send the SES verification email back to the user.
 
@@ -70,10 +70,10 @@ The /update PUT method connects LF4 with front-end to enable the user to modify 
 
 There are four lambdas in this project:
 
-- LF1 - 6998finalproject-login
-- LF2 - 6998finalproject-scrape
-- LF3 - 6998finalproject-fetchinterviewdata
-- LF4 - 6998finalproject-uploadinterviewdata
+LF1 - 6998finalproject-login
+LF2 - 6998finalproject-scrape
+LF3 - 6998finalproject-fetchinterviewdata
+LF4 - 6998finalproject-uploadinterviewdata
 
 LF1 is responsible for sending the SES verification email to the new user. This is to verify the new domain within SES. Once verified, all the incoming emails of the user are stored in the S3 bucket B2. LF2 is then triggered to analyze the email content and extract the interview information, such as company name, date, location, etc. Then the extracted information is put into a DynamoDB table. When the user logs in, LF3 is triggered to fetch the interview information of the user from the DynamoDB table to the front-end. The user is able to modify or even add new interview information manually. When he/she clicks the save button, LF4 is triggered to update the existing data or append new data to the DynamoDB table.
 
@@ -129,5 +129,5 @@ As new interview emails come in, InterviewMaster automatically updates the dashb
 
 It was a challenge to learn all the AWS modules involved in this project. There are yet a lot of improvements that can be made for further implementation. Some of these include:
 
-- Improve the ML model in scraping company name, position title, etc. to be more accurate.
-- Allow the app to import interview information from existant gmail data instead of only incoming data.
+Improving the ML model in scraping company name, position title, etc. to be more accurate.
+Allow the app to import interview information from existant gmail data instead of only incoming data.
