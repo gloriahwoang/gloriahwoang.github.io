@@ -13,20 +13,24 @@ This project was a collaborative effort with Aaron Zhao. It served as a final pr
 
 The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
 
-Cognito<br style="line-height:0.3em">
-S3<br style="line-height:0.3em">
-API Gateway<br style="line-height:0.3em">
-Lambdas<br style="line-height:0.3em">
-DynamoDB<br style="line-height:0.3em">
-SES<br style="line-height:0.3em">
+Cognito<br style="line-height:0.1em">
+S3<br style="line-height:0.1em">
+API Gateway<br style="line-height:0.1em">
+Lambdas<br style="line-height:0.1em">
+DynamoDB<br style="line-height:0.1em">
+SES<br style="line-height:0.1em">
 
 And there are several supporting components to the architecture:
 
-<p style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">
+<li style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">
     Code Build
+</li>
+<li style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">
     Code Pipeline
+</li>
+<li style="display: list-item; list-style-type: disc; font-family: $noto; font-size: 16px; font-weight: 100 padding: 8px 0 8px 0; letter-spacing: 1px; line-height: 0.3em;">
     Cloudwatch
-</p>
+</li>
 
 The following sections will describe these components in detail.
 
