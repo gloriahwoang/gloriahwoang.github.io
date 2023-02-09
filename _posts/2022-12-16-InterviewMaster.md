@@ -7,7 +7,7 @@ The job searching process can become tedious. Many candidates choose to have an 
 
 InterviewMaster allows candidates to automatically monitor changes in their candidacy. You can simply give the app permission/access to your Gmail account and it will automatically gather all the job application/status/process information for you! It is fast, simple, and convenient.
 
-This project was a collaborative effort with Aaron Zhao. It served as a final project for the class "Cloud Computing and Big Data with AWS" at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/InterviewMaster). See also a **Youtube demo** of the project [here](https://youtu.be/PcSSIGiSaiw).
+This project was a collaborative effort with Aaron Zhao. It served as a final project for the class _Cloud Computing and Big Data with AWS_ at Columbia University. See the code to the project [here](https://github.com/gloriahwoang/InterviewMaster). See also a **Youtube demo** of the project [here](https://youtu.be/PcSSIGiSaiw).
 
 ## The Architecture
 
