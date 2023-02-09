@@ -9,7 +9,7 @@ This project intends to explore various models that can predict if a person is p
 
 ## How does the data look?
 
-Below is a sample of the data set, consisting of the first 5 rows.
+Below is a sample of the dataset, consisting of the first 5 rows.
 
 !["Data-Sample"]({{ site.baseurl }}/images/data-first 5-rows.png)
 
