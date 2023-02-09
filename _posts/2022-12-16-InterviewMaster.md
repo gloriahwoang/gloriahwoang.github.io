@@ -14,15 +14,10 @@ This project was a collaborative effort with Aaron Zhao. It served as a final pr
 The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
 
 Cognito
-
 S3
-
 API Gateway
-
 Lambdas
-
 DynamoDB
-
 SES
 
 And there are several supporting components to the architecture:
