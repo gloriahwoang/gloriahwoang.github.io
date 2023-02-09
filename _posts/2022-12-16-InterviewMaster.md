@@ -3,7 +3,7 @@ layout: post
 title: InterviewMaster - App for Organizing Your Job Interviews
 ---
 
-The job searching process can become tedious. Many candidates choose to have an excel sheet that summarizes all of their applications, but some may also choose not to have any tracking system at all. With that, some some may forget that he applied to the same company a month ago!
+The job searching process can become tedious. Many candidates choose to have an excel sheet that summarizes all of their applications, but some may also choose not to have any tracking system at all. With that, some may forget that they applied to the same company a month ago!
 
 InterviewMaster allows candidates to automatically monitor changes in their candidacy. You can simply give the app permission/access to your Gmail account and it will automatically gather all the job application/status/process information for you! It is fast, simple, and convenient.
 
