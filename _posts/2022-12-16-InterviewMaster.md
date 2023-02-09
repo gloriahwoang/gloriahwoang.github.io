@@ -13,6 +13,12 @@ This project was a collaborative effort with Aaron Zhao. It served as a final pr
 
 The figure below shows the architecture diagram of InterviewMaster. There are several main components to this architecture:
 
+<ul>
+    <li class="post-li">Cognito</li>
+    <li class="post-li">S3</li>
+    <li class="post-li">API Gateway</li>
+    <li class="post-li">Lambdas</li>
+</ul>
 - Cognito
 - S3
 - API Gateway
