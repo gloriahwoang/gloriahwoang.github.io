@@ -17,7 +17,7 @@ The figure below shows the architecture diagram of InterviewMaster. There are se
 - S3
 - API Gateway
 - Lambdas
-- Dynamo DB
+- DynamoDB
 - SES
 
 And there are several supporting components to the architecture:
@@ -37,10 +37,10 @@ The following sections will describe these components in detail.
 Cognito was used to add user sign-up and sign-in features and user control access to InterviewMaster. The user receives a second verification email when he/she signs up. This second verification comes from SES to verify the domain. InterviewMaster will then use the email address provided to extract email content information to start organizing the users’ job application statuses.
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/login.png" width="300">
     <figcaption>Login Page</figcaption><br>
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-1.png" width="300">
+    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/signup-2.png" width="300">
     <figcaption>Signup Page</figcaption><br>
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/verification-1.jpg" width="300">
     <figcaption>Cognito Verification</figcaption><br>
@@ -50,30 +50,70 @@ Cognito was used to add user sign-up and sign-in features and user control acces
 
 #### S3
 
+Two S3 buckets are supporting this project:
+
+- B1 - 6998finalproject-frontend
+- B2 - 6998finalproject-emails
+
+The website is hosted on B1. The application was made with React JS and Node JS. B1 holds all the front-end code. B2, on the other hand, holds the incoming emails of the users signed up with InterviewMaster.
+
+#### API Gateway
+
+API Gateway consists of several methods:
+/login GET
+/setup PUT
+/update PUT
+
+The /setup PUT method connects LF1 with the front-end after the user signs up to PUT the user’s email address to SES and send the SES verification email back to the user.
+
+The /login GET method connects LF3 with front-end after the user successfully logs in to fetch the interview information stored in DynamoDB.
+
+The /update PUT method connects LF4 with front-end to enable the user to modify his/her existing interview information or save new interview information.
+
+#### Lambdas
+
+There are four lambdas in this project:
+
+- LF1 - 6998finalproject-login
+- LF2 - 6998finalproject-scrape
+- LF3 - 6998finalproject-fetchinterviewdata
+- LF4 - 6998finalproject-uploadinterviewdata
+
+LF1 is responsible for sending the SES verification email to the new user. This is to verify the new domain within SES. Once verified, all the incoming emails of the user are stored in the S3 bucket B2. LF2 is then triggered to analyze the email content and extract the interview information, such as company name, date, location, etc. Then the extracted information is put into a DynamoDB table. When the user logs in, LF3 is triggered to fetch the interview information of the user from the DynamoDB table to the front-end. The user is able to modify or even add new interview information manually. When he/she clicks the save button, LF4 is triggered to update the existing data or append new data to the DynamoDB table.
+
+#### DynamoDB
+
+A Dynamo DB table is used to contain users’ interview information (6998finalprojuserinterview1).
+
+Both partition key and sort key are specified while creating the table (‘6998finalprojuserinterview1’). The partition key {useremail: user’s email address} is used by LF 2, 3 and 4 to interact with DynamoDB and store specific emails for specific users. The attribute {insertAtTimeStamp} is set as the sort key which is called by LF4 while updating users' interview data. If the secondary sort key is not present by the front-end, it would be difficult for the lambda function and DynamoDB to identify the interview data that is being modified.
+
+#### SES
+
+With AWS Simple Email Service, the domains are verified and all the emails received from the domains are sent to the S3 bucket (B2).
+
+#### Code Build
+
+Once "npm run build" is run and pushed to Github, Code Pipeline is initiated, and once our source picks up the changes, Code Build starts to build our application and continue down the pipeline.
+
+#### Code Pipeline
+
+Code Pipeline was used for continuous delivery. With Code Pipeline, it made teamwork even easier. It automated our release pipelines for fast updates and helped our team to focus on development.
+
+#### CloudWatch
+
+CloudWatch is a must have for any application development with AWS. With CloudWatch, we were able to debug our code and continue development.
+
 ## Wireframing
 
-rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently w
+Below is the wireframing of the project at the very beginning of our development planning.
 
 <div class="img-container">
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTzpT8GwAd0PpCSnx7AQKTo%2FWireframe-%2526-Prototype%3Ft%3DGUnql9cKS2RozNfi-1" allowfullscreen></iframe>
 </div>
 
-## App Overview
+## Key Designs and Features
 
-#### Home Page
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-
-<div class="img-container">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-2.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-3.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-4.png" width="300">
-    <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/homepage-5.png" width="300">
-</div>
-
-#### Interviews Page
-
+rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
 
 <div class="img-container">
@@ -86,10 +126,6 @@ but also the leap into electronic typesetting, remaining essentially unchanged. 
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-2.png" width="300">
     <img class="center-2" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/interview-3.png" width="300">
 </div>
-
-## Key Designs and Features
-
-rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
 but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen
 
