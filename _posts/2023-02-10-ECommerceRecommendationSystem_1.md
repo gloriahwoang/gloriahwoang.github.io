@@ -4,11 +4,7 @@ title: E-Commerce Recommendation System - Exploring the Balance between Consumer
 ---
 Can we build a recommendation system that balances consumer and business interest?
 
-The rise of ecommerce over the past few years has offered convenience for consumers who are now shopping online more than ever before. In this market, the number of users is predicted to reach 4,877.0 M by 2025 (ECommerce - worldwide: Statista market forecast 2022). E-commerce websites now house more products than could fit in a physical location often resulting in information overload for the consumer who is unable to easily sort through options. For businesses, the continuous growth of e-commerce markets has turned attention to how innovative technology and data science can aid in bridging the gap between consumer behaviors and the purchasing of products and/or services online with the intent to increase profit (Longo, 2018). One strategy for accomplishing this has been the usage of machine learning, more specifically recommendation systems.
-
-Recommendation systems are a common type of machine learning-based applications which are often used in businesses to increase engagement with users on their platform. Using this kind of system, industries have revolutionized their online platforms by learning the behavior of their consumers and providing them with what they need. In order to develop such models, consumer data is often collected throughout the user experience lifecycle on websites. There lies the concerns with business ethics and privacy. Mixed reviews on whether data collection imposes harm or benefits consumers is an ongoing topic amongst industry leaders (Ivanova, 2017). For example, there have been rising concerns about preserving user privacy when using these systems since more and more personal information, from demographic to behavioral, is included in the data collection process (Sweeney, 2000). Therefore it is important for both businesses and consumers to understand how different user information contributes to the recommendation outcome. Since consumer data have been the general building blocks of any recommendation system especially with regards to increasing accuracy, an important problem to consider is the balance between consumer and business interest.
-
-The goal of this project is to investigate the usage of consumer data for recommendation systems in addition to product data, and its effect on accuracy and overall business impact with an aim to identify and suggest modeling strategies that offer maximum consumer privacy without comprising the business.
+Ecommerce has grown exponentially during the past few years, offering convenience for consumers who are now shopping mostly online. Business are now striving to become more competitive by learning more about consumer behaviors in relation to the purchasing of their products. The main objectives for these companies is to maximize profit. One strategy for this has been the use of recommendation systems, a common type of machine learing based application. In order to develop these systems, consumer data is often collected. Because of this, there has been rising concerns about user privacy. Can we build a recommendation system that balances consumer and business interest? This is important because the use of consumer data is becoming more advanced. Both business and consumers should be aware of its implications. We aim to identify and suggest modeling strategies for future use that offer maximum consumer privacy without compromising the business.
 
 The project was a collaborative effort with Yongwen Zhuang, Alexus Mack, Ke Xu, Esha Srivastava, Ritika Wadhwa, and Zhihui Zhang. It served as a final project submission for the DS4A 2022 Summer Fellowship Program. See the code to the project [here](https://github.com/gloriahwoang/EcommerceRecSys).
 
@@ -16,8 +12,15 @@ The project was a collaborative effort with Yongwen Zhuang, Alexus Mack, Ke Xu, 
 
 The link to the Kaggle dataset is [here](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations).
 
+The dataset is as follows: articles metadata, customers metadata, and transactions records. The dataset comes from the years 2018-2020 and consists of 37 columns and more than 100,000 records.
+
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dataset_1.png" width="400" style="border: #ddd 1px solid;">
+</div>
+
+Below are the variables that are included in each assets:
+
+<div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dataset_2.png" width="400" style="border: #ddd 1px solid;">
 </div>
 
