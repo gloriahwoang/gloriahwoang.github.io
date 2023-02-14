@@ -135,3 +135,5 @@ It was a challenge to learn all the AWS modules involved in this project. There 
 
 Improving the ML model in scraping company name, position title, etc. to be more accurate.<br>
 Allow the app to import interview information from existant gmail data instead of only incoming data.<br>
+
+<br>
