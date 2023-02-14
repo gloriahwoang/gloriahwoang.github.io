@@ -30,11 +30,12 @@ Below are the variables that are included in each assets:
 How does the data look like? To explore this, an exploratory data analysis was performed on the dataset.
 ### Articles EDA
 
-Ladieswear index group had the maximum inventory followed by childrenwear and menswear. Ladieswear garment upper body was the most common. <br>
+Ladieswear index group had the maximum inventory followed by childrenwear and menswear. Ladieswear garment upper body was the most common.
 
+<br>
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/index_group_name.png" width="400"><br>
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/perceivedcolorvalue.png" width="400" style="margin-top: 15px;">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/index_group_name.png" width="400">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/perceivedcolorvalue.png" width="400" style="margin-top: 40px;">
 </div>
 <br>
 
@@ -63,16 +64,16 @@ Ladieswear was the most index group sold, followed by divided wear and lingeries
 
 <br>
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10indexsold.png" width="600"><br><br>
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10prodgroupsold.png" width="600">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10indexsold.png" width="600"><br><br><br>
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10prodgroupsold.png" width="600"><br><br>
 </div>
 
 The following plots show the transactions by month, day, and weekday over the three years 2018-2020. Transactions rose from 2018 to 2019 but declined in 2020. There seems to be a peak in transactions in June and a peak at the end of the month.
 
 <br>
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/monthlytrans.png" width="500"><br><br>
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dailytrans.png" width="500"><br><br>
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/monthlytrans.png" width="500"><br><br><br>
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dailytrans.png" width="500"><br><br><br>
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/weekdaytrans.png" width="500">
     <figcaption>0 represents Monday and 6 represents Sunday.</figcaption>
 </div>
