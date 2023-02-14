@@ -8,7 +8,7 @@ Ecommerce has grown exponentially during the past few years, offering convenienc
 
 The project was a collaborative effort with Yongwen Zhuang, Alexus Mack, Ke Xu, Esha Srivastava, Ritika Wadhwa, and Zhihui Zhang. It served as a final project submission for the DS4A 2022 Summer Fellowship Program. See the code to the project [here](https://github.com/gloriahwoang/EcommerceRecSys).
 
-# About the Dataset
+## About the Dataset
 
 The link to the Kaggle dataset is [here](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations).
 
@@ -25,26 +25,23 @@ Below are the variables that are included in each assets:
 </div>
 
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
 How does the data look like? To explore this, an exploratory data analysis was performed on the dataset.
-## Articles EDA
+### Articles EDA
+
+Ladieswear index group had the maximum inventory followed by childrenwear and menswear. Ladieswear garment upper body was the most common.
 
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/index_group_name.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/perceivedcolorvalue.png" width="300" padding=20><br>
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/perceivedcolormaster.png" width="300">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/graphicalappearance.png" width="300">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/perceivedcolorvalue.png" width="300" padding=20>
 </div>
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/indexgroupname_garmentgroupname.png" width="600">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/indexgroupname_productgroupname.png" width="600">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/indexgroupname_perceivedcolorvalue.png" width="600">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10inventory.png" width="600">
 </div>
 
-## Customers EDA
+### Customers EDA
 
 Shown below is the age distribution of H&M customers. The age of customers ranges from 16 to 99, with an average age of 36, and customers aging mainly in the 20s and between 45 and 60.
 
@@ -58,39 +55,50 @@ H&M sends fashion news and also has a club member. From the following plots, we 
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/clubmemberstatus_fashionnewsfreq.png" width="600">
 </div>
 
-## Transactions EDA
+### Transactions EDA
+
+Ladieswear was the most index group sold, followed by divided wear and lingeries/tights. The top products sold were garment upper body, garment lower body, and garment full body, followed by swimwear and underwear.
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10indexsold.png" width="600">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10indexsold.png" width="600"><br>
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/top10prodgroupsold.png" width="600">
 </div>
 
+The following plots show the transactions by month, day, and weekday over the three years 2018-2020. Transactions rose from 2018 to 2019 but declined in 2020. There seems to be a peak in transactions in June and a peak at the end of the month.
 
 <div class="img-container">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/monthlytrans.png" width="500">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dailytrans.png" width="500">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/monthlytrans.png" width="500"><br>
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/dailytrans.png" width="500"><br>
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/weekdaytrans.png" width="500">
 </div>
 
-# Feature Engineering
+0 represents Monday and 6 represents Sunday.
+
+
+## Data Cleaning and Feature Engineering
+
+In order for the data to be workable as well as to yield a more accurate model, we went through a series of data cleaning as well as feature engineering. The compression of data was necessary as part of the first step. The aim was to reduce the training data memory and achieve a 16x memory reduction. Converting columns to specific types helped in achieving this goal; some of those actions are listed below.
+
+As part of feature engineering was the addition of a new columns as features: *week, average expenses, total expenses*.
 
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/featureengineering.png" width="640">
 </div>
 
-# Algorithm & Modeling
+## Algorithm & Modeling
+
 
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/models.png" width="640">
 </div>
 
-# Model 3
+## Model 3
 
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/model3.png" width="640">
 </div>
 
-# Results: Balancing Consumer & Business Interest
+## Results: Balancing Consumer & Business Interest
 
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/results.png" width="640">
