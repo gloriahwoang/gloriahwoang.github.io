@@ -27,6 +27,7 @@ Below are the variables that are included in each assets:
 
 # Exploratory Data Analysis
 
+How does the data look like? To explore this, an exploratory data analysis was performed on the dataset.
 ## Articles EDA
 
 <div class="img-container">
@@ -45,10 +46,16 @@ Below are the variables that are included in each assets:
 
 ## Customers EDA
 
+Shown below is the age distribution of H&M customers. The age of customers ranges from 16 to 99, with an average age of 36, and customers aging mainly in the 20s and between 45 and 60.
+
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/age.png" width="500">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/fashionnewsfreq.png" width="600">
-    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/clubmemberstatus.png" width="600">
+</div>
+
+H&M sends fashion news and also has a club member. From the following plots, we find that most customers have an active club member status but majority of them do not receive fashion news, and only 470,000 members receive fashion news regularly.
+
+<div class="img-container">
+    <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/clubmemberstatus_fashionnewsfreq.png" width="600">
 </div>
 
 ## Transactions EDA
