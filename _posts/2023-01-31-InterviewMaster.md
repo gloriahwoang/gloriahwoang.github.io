@@ -3,7 +3,7 @@ layout: post
 title: InterviewMaster - App for Organizing Your Job Interviews
 ---
 
-An Application that syncs with your Gmail and automatically organizes your job interview and candidacy!
+An application that syncs with your Gmail and automatically organizes your job interview and candidacy!
 
 The job searching process can become tedious. Many candidates choose to have an excel sheet that summarizes all of their applications, but some may also choose not to have any tracking system at all. With that, some may forget that they applied to the same company a month ago!
 
