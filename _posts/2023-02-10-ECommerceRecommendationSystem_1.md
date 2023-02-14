@@ -56,7 +56,7 @@ H&M sends fashion news and also has a club member. From the following plots, we 
 <br>
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/clubmemberstatus_fashionnewsfreq.png" width="600">
-</div>
+</div><br><br>
 
 ### Transactions EDA
 
