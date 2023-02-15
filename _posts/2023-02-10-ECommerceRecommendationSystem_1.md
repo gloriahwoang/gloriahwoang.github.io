@@ -91,6 +91,13 @@ As part of feature engineering was the addition of a new columns as features: *w
 
 ## Algorithm & Modeling
 
+We explored three different models to address the question. The three models are: item-based collaborative filtering, recall & ranker model, and lastly, a combination of the two.
+
+Item-based collaborative filtering or item-item collaborative filtering is a type of recommendation system that works based on user-product interactions in the past. The assumption is that users like similar products and also dislike similar products. This type of filtering uses the rating of co-rated item to predict the rating on specific item. In this model, customers were segmented on the basis of the recency of purchase, frequency of purchase, and monetary value.
+
+The second model is the recall & ranker model. For recall, candidates were generated, such as last purchased candidates and best seller recommendations. For ranking, the LGB ranker model was utilized.
+
+Lastly, the third model is a combination of the first two. A deep dive into Model 3 is below.
 
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/models.png" width="750">
@@ -98,15 +105,31 @@ As part of feature engineering was the addition of a new columns as features: *w
 
 ## Model 3
 
+The final recommendation system utilized a combined model of Model 1 and Model 2. The predictions from Model 1 was added to the pool of candidates in Model 2, and the recall & ranker model made the final item recommendations.
+
+The three recall structures to generate candidates are: the bestseller items, the repurchased items, and the item-based collaborative filtering predictions. The LGBM ranker model was used to rank the model with a loss function of *lambdarank*.
+
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/model3.png" width="640">
 </div>
 
 ## Results: Balancing Consumer & Business Interest
 
+To address the project statement, we want to investigate whether customer age is an important factor in the recommendation system or not. Two models are compared: one with age and one without age. As shown below, the MAP (Mean Average Position) from the two models do not have much of a difference. The feature importance also indicate that age is insignificant as the value is very close to 0.
+
 <div class="img-container">
     <img class="center" src="https://raw.githubusercontent.com/gloriahwoang/gloriahwoang.github.io/master/images/results.png" width="750">
 </div>
+
+## Findings
+
+There have been multiple findings throughout the process of the analysis. Customer purchase history is a key factor for purchase interest identification and, although there is an insignificant difference in MAP when training with and without sensitive customer information, personal information potentially influence the prediction in models.
+
+The recommender system combines multiple models and have a competitive performance to the *Kaggle* leaderboard. In addition, strategies to generate candidates are very important in recommendation systems. Although this attempt might by a preliminary one, it is indicated from the results that there indeed is a need to balance customer privacy and business profit.
+
+## Limitations and Future Work
+
+There are limitations of the current work and some directions for the future. For example, features of product image data can be utilized and more features can be added to create a better performing model. More recall strategies can be applied to improve the overall accuracy. Different types of ranking models can also be investigated in the future. Another great limitation of this model was that, the only sensitive customer information in the dataset was customers' age. When there is available data, an exploration of the impact of other personal and sensitive information such as gener and geographic location can be performed.
 
 <br>
 <br>
